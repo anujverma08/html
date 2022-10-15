@@ -1,0 +1,13 @@
+use svg type image for website
+
+inline
+internal
+external
+
+<style type="text/css">  inline -- used in tags
+
+<style type="text/css> internal--  used in style tag
+
+</style>
+
+
