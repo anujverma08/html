@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+<body>
+    <form>
+        Email:<input type="text" id="email" required="" placeholder="Enter Your Email">
+        Password:<input type="Password" id="pass" required="" placeholder="Enter your Password">
+        <button type="button" id="btn">Login</button>
+
+    </form>
+
+    <script type="text/javascript">
+        var emailEntered = document.getElementById('email');
+        var PassEnter = document.getElementById('pass');
+
+        var button = document.getElementById("btn");
+
+        button.addEventListener("click",function(){
+            var email = emailEntered.value;
+            var Password = PassEnter.value;
+
+            var correctEmail = "anuj@gmail.com";
+            var correctPass = "anuj@4860";
+            if(email === correctEmail && Password ==+ correctPass){
+                window.open("clac.html");
+
+            }
+
+            else{
+                alert("Wrong Password");
+
+            }
+
+        });
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
